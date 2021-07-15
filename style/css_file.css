@@ -1,0 +1,13 @@
+.foto {
+    position: relative;
+  left: center  ;
+  top: 20.5px;
+   border-radius: 50% solid #fff;
+}
+
+.main_info {
+    font-size: 19px;
+     position: relative;
+  left: 20px;
+  top: 20.5px;
+}
