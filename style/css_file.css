@@ -3,6 +3,9 @@
   left: center  ;
   top: 20.5px;
    border-radius: 50% solid #fff;
+   background: #26311c  no-repeat center top /
+    cover;
+  height: 180px;
 }
 
 .main_info {
