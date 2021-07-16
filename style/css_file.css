@@ -1,16 +1,62 @@
-.foto {
-    position: relative;
-  left: center  ;
-  top: 20.5px;
-   border-radius: 50% solid #fff;
-   background: #26311c  no-repeat center top /
-    cover;
-  height: 180px;
+html {
+  font-family: Roboto, sans-serif;
 }
 
-.main_info {
-    font-size: 19px;
-     position: relative;
-  left: 20px;
-  top: 20.5px;
+* {
+  color: #333333;
+}
+
+h1 {
+  color: #2f80ed;
+  margin-bottom: 0.25em;
+}
+
+h2 {
+  color: #333333;
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+h3 {
+  color: #333333;
+}
+a {
+  color: #2f80ed;
+}
+
+section {
+  margin-bottom: 3em;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.contacts {
+  margin-bottom: 2em;
+}
+.contact {
+  display: flex;
+}
+
+.contact_type {
+  min-width: 90px;
+}
+.experience {
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.experience_name {
+  font-weight: bold;
+}
+
+.experience_data {
+  min-width: 185px;
+  margin-bottom: 1em;
+}
+@media (max-width: 575px) {
+  .experience {
+    display: block;
+  }
 }
